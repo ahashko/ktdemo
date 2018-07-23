@@ -1,0 +1,78 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+
+body {
+  /*padding-top: 54px;*/
+  padding-top: 15px;
+}
+
+@media (min-width: 992px) {
+  body {
+    /*padding-top: 56px;*/
+    padding-top: 15px;
+  }
+}
+
+
+@media (max-width: 780px) {
+  .bt-text{
+    font-size: 15px;
+    /* display: block; */
+    white-space: unset;
+    margin-bottom: 20px;
+  }
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.lead{
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bt-text{
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: black;
+  cursor: pointer;
+}
+
+.sb-form{
+  padding-top: 100px;
+}
+
+.btn-info{
+  background-color: black;
+  border-color: white;
+  text-transform: uppercase;
+}
+
+.btn-info:hover{
+  background-color: #4e555b;
+  border-color: black;
+}
+
+.thumbnail {
+  display: inherit;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border: 4px solid #fefefe;
+  border-radius: 0;
+  box-shadow: none;
+  line-height: 0;
+}
+
+
+
+

@@ -1,14 +1,14 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 
-
-
-import {EmployeesComponent} from './employees/employees.component';
-import {EmployeeComponent} from './employees/employee/employee.component';
+import {LandingPageComponent} from './landing-page/landing-page.component';
+import {MainPageComponent} from './main-page/main-page.component';
+import {RedirectComponent} from './redirect/redirect.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'login', pathMatch: 'full'},
-  { path: 'login', component: EmployeesComponent }
+  { path: '',  component: MainPageComponent},
+  { path: 'download', component: LandingPageComponent },
+  { path: 'redirect', component: RedirectComponent}
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
